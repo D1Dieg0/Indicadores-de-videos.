@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:repeat linear-gradient(#4B0082 ,#BA55D3 ,#9400D3 ,#4B0082 );
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+
+}
+
+header {
+    margin-top: 20px;
+    border-bottom: solid 2px white;
+
+}
+
+.header_titulo {
+    text-align: center;
+    margin: 15px 32px 15px 32px;
+    border: solid 2px white;
+    background: black;
+    color: white;
+    font-size: 2em;
+    border-radius: 40px;
+    font-family:  "Gupter", serif;
+
+
+}
+
+
+
+/*essa e aparte da navegacao*/
+
+
+nav {
+    justify-content: center;
+    display: flex;
+    margin-top: 3em;
+    padding: 5em;
+    
+}
+
+.nav_titulo {
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.nav_texto {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.nav__video {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+
+/*section, esse parte e primeira categoria*/
+
+
+
+.conteiner__videos {
+    padding: 50px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(#BA55D3, #8B008B,	#DA70D6)	;
+    
+}
+
+
+
+/*esses e o titulo acima dos videos */
+
+.titulo__video {
+    margin: 15px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #F0FFF0;
+}
+
+
+
+/* aqui começa a primeira div*/
+
+.categoria-imagens {
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+
+
+/*essa e a categoria dos meus videos*/
+
+.imgUm {
+    width: auto;
+    height: 142px;
+    opacity: 0.5;
+
+}
+
+.imgUm:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
+
+
+/*vou fazer um folter basico para minha pagina*/
+
